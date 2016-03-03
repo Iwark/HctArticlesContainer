@@ -1,0 +1,6 @@
+framework module ArticlesContainer {
+  umbrella header "ArticlesContainer.h"
+
+  export *
+  module * { export * }
+}
