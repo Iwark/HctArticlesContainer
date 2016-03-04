@@ -121,7 +121,7 @@ class ArticlesContainer: UIViewController, UIScrollViewDelegate {
             }
         }
         self.render()
-        if prevViewController != nil {
+        if scrollTo != 0 && prevViewController != nil {
             self.scrollView.setContentOffset(CGPointMake(0, cy), animated: false)
         }
     }
